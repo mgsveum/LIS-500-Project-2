@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>LIS500Project</title>
+   <link rel="stylesheet" href="stylepage.css" />
+ </head>
+ <body>
+   <nav>
+     <div class="logo">LIS 500 Project</div>
+     <ul class="nav-links">
+       <li><a href="#Welcome">Welcome</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#resources">Resources</a></li>
+       <li><a href="#tech-hero">Tech Hero</a></li>
+      </ul>
+   </nav>
+  
+   <!-- Splash Page -->
+   <section id="home" class="splash">
+     <div class="container">
+       <h1>Welcome</h1>
+       <p>n/a</p>
+       <a href="#about" class="button">Learn More</a>
+     </div>
+   </section>
+
+
+
+
+<!-- About Me Section -->
+<section id="about">
+   <div class="container">
+     <h2>About Us</h2>
+      <div class="buttons">
+       <button class="profile-btn" onclick="showDescription('joan')">Joan Lee</button>
+       <button class="profile-btn" onclick="showDescription('madison')">Madison Sveum</button>
+       <button class="profile-btn" onclick="showDescription('ann')">Ann Teoh</button>
+     </div>
+      <div id="description">
+       <p id="joan" class="description">Hi, I’m Joan Lee. I am from Seoul, Korea but I have lived in multiple countries: Taiwan, and the US. I am pursuing a double major in Information Science and Communication Arts with a minor in Digital Studies at the University of Wisconsin-Madison.</p>
+       <p id="madison" class="description">I’m originally from Milwaukee, WI. I’m a junior studying Information Science. I’m minoring in Digital Studies, Digital Media Analytics, Sports Communication and Graphic Design. This semester in addition to LIS 500 Code and Power I’m taking LIS 472 Introduction to Web Development, LIS 640 Generative AI, JOURN 175 Digital Media Fluency, and ATM OCN 102 Climate Change.</p>
+       <p id="ann" class="description">Hi, I’m Ann Teoh. I am from Kuala Lumpur Malaysia I am senior in Information Science with a minor in Digital Studies at UW.
+       </p>
+     </div>
+   </div>
+ </section>
+ 
+  <script>
+   function showDescription(person) {
+     document.querySelectorAll('.description').forEach(desc => desc.style.display = 'none');
+     document.getElementById(person).style.display = 'block';
+   }
+ </script>
+
+
+
+
+
+
+   <!-- Resources Page (Implicit Bias) -->
+   <section id="resources">
+     <div class="container">
+       <h2>Resource Page</h2>
+       <p>Learn more about implicit bias and intersectionality. Click the links below! </p>
+       <ul>
+         <li><a href="https://implicit.harvard.edu/implicit/iatdetails.html">Implicit Bias Test</a></li>
+         <li><a href="https://www.womankind.org.uk/intersectionality-101-what-is-it-and-why-is-it-important/">Intersectionality</a></li>
+       </ul>
+     </div>
+   </section>
+
+
+   <!-- Tech Hero Section -->
+   <section id="tech-hero">
+     <div class="container">
+       <h2>Tech Hero</h2>
+       <p>Highlighting an individual making a difference in tech.</p>
+     </div>
+   </section>
+
+
+
+
+   <footer>
+     <p>&copy; Joan Lee, Madison Sveum, Ann Teoh. LIS 500 Project2</p>
+   </footer>
+ </body>
+</html>
+
+
+
+
+
+
+
+Css code
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body {
+   font-family: "Poppins", sans-serif;
+   background-color: #f4f4f4;
+   color: #333;
+   line-height: 1.6;
+}
+
+
+html {
+   scroll-behavior: smooth;
+}
+
+
+nav {
+   background-color: #343a40;
+   padding: 15px;
+   text-align: center;
+}
+
+
+.nav-links {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   list-style: none;
+   font-size: 1.2rem;
+}
+
+
+.nav-links a {
+   color: white;
+   text-decoration: none;
+   transition: color 0.3s;
+}
+
+
+.nav-links a:hover {
+   color: #ffdd57;
+   text-decoration: underline;
+}
+
+
+.logo {
+   font-size: 2rem;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+.container {
+   max-width: 900px;
+   margin: 40px auto;
+   padding: 40px;
+   background-color: white;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   text-align: center;
+}
+
+
+h1, h2 {
+   font-size: 2.5rem;
+   color: #343a40;
+   margin-bottom: 15px;
+}
+
+
+p {
+   font-size: 1.1rem;
+   color: rgb(85, 85, 85);
+   line-height: 1.6;
+   margin-bottom: 20px;
+}
+
+
+.button {
+   display: inline-block;
+   background-color: #b9d9fb;
+   color: rgb(40, 45, 50);
+   padding: 12px 24px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background-color 0.3s;
+}
+
+
+.button:hover {
+   background-color: #b9d9fb;
+}
+
+
+/* Sections */
+section {
+   padding: 60px 20px;
+   text-align: center;
+}
+
+
+.splash {
+   background: linear-gradient(to right, #b9d9fb, #9accfb);
+   color: white;
+   padding: 100px 20px;
+   border-radius: 0 0 30px 30px;
+}
+
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+
+ul li {
+   margin: 10px 0;
+   font-size: 1.2rem;
+}
+
+
+ul li a {
+   color: #343a40;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+
+ul li a:hover {
+   text-decoration: underline;
+}
+
+
+footer {
+   background-color: #dae6f1;
+   color: ADD8E6;
+   text-align: center;
+   padding: 20px;
+   margin-top: 40px;
+   font-size: 1rem;
+}
+
+
+
+
+/* Centered Buttons */
+.buttons {
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+
+/* Baby Blue Buttons */
+.profile-btn {
+   background-color: #b9d9fb; /* Baby blue */
+   border: none;
+   color: #333; /* Dark gray for contrast */
+   padding: 12px 24px;
+   font-size: 16px;
+   font-weight: 500;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.profile-btn:hover {
+   background-color: #9ac7db; /* Slightly darker baby blue */
+   transform: scale(1.05);
+}
+
+
+.profile-btn:active {
+   transform: scale(0.95);
+}
+
+
+/* Description Box */
+.description {
+   font-size: 16px;
+   line-height: 1.6;
+   padding: 15px;
+   background: #f0f8ff; /* Very light baby blue background */
+   border-left: 5px solid #ADD8E6; /* Baby blue border */
+   border-radius: 5px;
+   max-width: 600px;
+   margin: 20px auto;
+   display: none;
+   text-align: left;
+}
