@@ -76,3 +76,29 @@
         
          <h3>Videos</h3>
 
+            <li><a href="https://www.youtube.com/watch?v=O1islM0ytkE">What is Intersectionality?</a></li>
+         <li><a href="https://youtu.be/akOe5-UsQ2o?si=DLD1gXfG9l3qm7oB">The Urgency of Intersectionality</a></li>
+         <li><a href="https://www.khanacademy.org/test-prep/mcat/social-inequality/social-class/v/intersectionalityB">Intersectionality</a></li>
+
+
+         <h3>Podcasts</h3>
+
+
+         <li><a href="https://podcasts.apple.com/us/podcast/intersectionality-matters/id1441348908">Intersectionality Matters!</a></li>
+         <li><a href="https://www.npr.org/sections/codeswitch/">Code Switch-Race. In your face</a></li>
+         <li><a href="https://creators.spotify.com/pod/show/minda-harts/episodes/Intersectionality-and-Allyship-e2hska/a-a6ao6d">Secure the Seat</a></li>
+
+
+       </ul>
+     </div>
+   </section>
+
+
+   <!-- Tech Hero Section -->
+   <section id="tech-hero">
+     <div class="container">
+       <h2>Tech Hero</h2>
+       <p>Highlighting an individual making a difference in tech.</p>
+     </div>
+   </section>
+
