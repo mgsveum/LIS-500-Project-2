@@ -52,4 +52,27 @@
        <button class="profile-btn" onclick="showDescription('joan')">Joan Lee</button>
        <button class="profile-btn" onclick="showDescription('madison')">Madison Sveum</button>
        <button class="profile-btn" onclick="showDescription('ann')">Ann Teoh</button>
-  
+
+    <!-- Resources Page (Implicit Bias) -->
+   <section id="resources">
+     <div class="container">
+       <h2>Resource Page</h2>
+       <p>Learn more about implicit bias and intersectionality. Click the links below! </p>
+
+
+     <h3>Journals</h3>
+       <ul>
+         <li><a href="https://www.jstor.org/journal/jinte">The Journal of Intersectionality</a></li>
+         <li><a href="Virtual Special Issue - Intersectionality">Virtual Special Issue - Intersectionality</a></li>
+         <li><a href="https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=1052&context=uclf">Demarginalizing the Intersection of Race and Sex</a></li>
+
+
+         <h3>Books</h3>
+
+
+         <li><a href="https://scholarship.law.columbia.edu/books/255/">On Intersectionality : Essential Writings</a></li>
+         <li><a href="https://www.dukeupress.edu/intersectionality-as-critical-social-theory">Intersectionality as Critical Social Theory</a></li>
+         <li><a href="https://www.haymarketbooks.org/books/780-freedom-is-a-constant-struggle">Freedom is a constant struggle</a></li>
+        
+         <h3>Videos</h3>
+
