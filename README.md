@@ -1,4 +1,3 @@
-# LIS-500-Project-2
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -18,7 +17,8 @@
        <li><a href="#tech-hero">Tech Hero</a></li>
       </ul>
    </nav>
-    <!-- Splash Page -->
+  
+   <!-- Splash Page -->
    <section id="home" class="splash">
      <div class="container">
        <h1>Welcome!</h1>
@@ -26,7 +26,18 @@
      </div>
    </section>
 
-   </div>
+
+
+
+<!-- About Me Section -->
+<section id="about">
+   <div class="container">
+     <h2>About Us</h2>
+      <div class="buttons">
+       <button class="profile-btn" onclick="showDescription('joan')">Joan Lee</button>
+       <button class="profile-btn" onclick="showDescription('madison')">Madison Sveum</button>
+       <button class="profile-btn" onclick="showDescription('ann')">Ann Teoh</button>
+     </div>
       <div id="description">
        <p id="joan" class="description">Hi, I’m Joan Lee. I am from Seoul, Korea but I have lived in multiple countries: Taiwan, and the US. I am pursuing a double major in Information Science and Communication Arts with a minor in Digital Studies at the University of Wisconsin-Madison.</p>
        <p id="madison" class="description">I’m originally from Milwaukee, WI. I’m a junior studying Information Science. I’m minoring in Digital Studies, Digital Media Analytics, Sports Communication and Graphic Design. This semester in addition to LIS 500 Code and Power I’m taking LIS 472 Introduction to Web Development, LIS 640 Generative AI, JOURN 175 Digital Media Fluency, and ATM OCN 102 Climate Change.</p>
@@ -44,16 +55,11 @@
  </script>
 
 
-<!-- About Me Section -->
-<section id="about">
-   <div class="container">
-     <h2>About Us</h2>
-      <div class="buttons">
-       <button class="profile-btn" onclick="showDescription('joan')">Joan Lee</button>
-       <button class="profile-btn" onclick="showDescription('madison')">Madison Sveum</button>
-       <button class="profile-btn" onclick="showDescription('ann')">Ann Teoh</button>
 
-    <!-- Resources Page (Implicit Bias) -->
+
+
+
+   <!-- Resources Page (Implicit Bias) -->
    <section id="resources">
      <div class="container">
        <h2>Resource Page</h2>
@@ -76,7 +82,8 @@
         
          <h3>Videos</h3>
 
-            <li><a href="https://www.youtube.com/watch?v=O1islM0ytkE">What is Intersectionality?</a></li>
+
+         <li><a href="https://www.youtube.com/watch?v=O1islM0ytkE">What is Intersectionality?</a></li>
          <li><a href="https://youtu.be/akOe5-UsQ2o?si=DLD1gXfG9l3qm7oB">The Urgency of Intersectionality</a></li>
          <li><a href="https://www.khanacademy.org/test-prep/mcat/social-inequality/social-class/v/intersectionalityB">Intersectionality</a></li>
 
@@ -98,7 +105,21 @@
    <section id="tech-hero">
      <div class="container">
        <h2>Tech Hero</h2>
-       <p>Highlighting an individual making a difference in tech.</p>
+       <p> Dishanta Kpatrick is a self taught coder who made her way to work at Intuit MailChimp as a front end developer. She started coding in high school through 4-H. When her teacher, Mrs. Smith noticed her potential, and encouraged her to create a website for the local 4-H program. She went to state school after highschool and started to study but ended up not liking it and entering the workforce. 
+	   <p> She was looking for a job when she came across Intuit MailChimp. They were hiring for their Tech Support team. She learned how to code HTML, JavaScript, CSS, and API. She then found that she wanted to create a career in tech, and ended up going to a full-stack web developers boot camp at Georgia Tech. Over six months, she gained the necessary skills. She began to apply for jobs but found that her certificate wasn’t enough. She went back to school for cybersecurity and is currently working on her degree.
+	   <p> Not even a year later, an  <a href = "https://www.intuit.com/careers/programs/career-pathways/?cid=dis_pocit_clicks_us_eb-media_aw_article-dishanta%7CURM_link%7Cnone_intuit-talent"> apprenticeship program </a> was started at MailChimp. Out of 50 applicants, only her and 4 others got the placement. That was her journey to engineering. She can be seen as a hero for her untraditional path to tech. Kpatrick shows others who have a non-traditional educational background that they can do it too. 
+	   <p> <a href ="https://peopleofcolorintech.com/articles/interview-dishanta-kpatricks-unique-path-from-self-taught-coder-to-front-end-engineer-at-intuit-mailchimp/"> Read more about Dishanta Kpatrick’s story here. </a> </p>
+	   </p>
      </div>
    </section>
+
+
+
+
+   <footer>
+     <p>&copy; Joan Lee, Madison Sveum, Ann Teoh. LIS 500 Project2</p>
+   </footer>
+ </body>
+</html>
+
 
