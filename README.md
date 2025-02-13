@@ -18,4 +18,21 @@
        <li><a href="#tech-hero">Tech Hero</a></li>
       </ul>
    </nav>
+    <!-- Splash Page -->
+   <section id="home" class="splash">
+     <div class="container">
+       <h1>Welcome!</h1>
+       <a href="#about" class="button">Learn More</a>
+     </div>
+   </section>
+
+
+<!-- About Me Section -->
+<section id="about">
+   <div class="container">
+     <h2>About Us</h2>
+      <div class="buttons">
+       <button class="profile-btn" onclick="showDescription('joan')">Joan Lee</button>
+       <button class="profile-btn" onclick="showDescription('madison')">Madison Sveum</button>
+       <button class="profile-btn" onclick="showDescription('ann')">Ann Teoh</button>
   
